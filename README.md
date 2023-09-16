@@ -14,3 +14,5 @@
 
 # Practica 
 1 - [Basicos](basicos)
+
+2 - [Programas Sencillos](programas_sencillos)
