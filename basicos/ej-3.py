@@ -9,12 +9,37 @@ f) Calcular el volumen de una esfera dado su radio.
 g) Dados los catetos de un triángulo rectángulo, calcular su hipotenusa. """
 
 
-
+# a 
 def rectangle_perimeter(base,height):
     return base * 2 + height * 2
 
+#b
 def rectangle_area(base,heigth):
     return base * heigth
 
+# d 
+def circle_perimeter(radio):
+    PI = 3.14
+    return 2 * PI * radio
+
+
+#e
+def circle_area(radio):
+    PI = 3.14
+    return PI * radio**2
+
+#f
+def volume_sphere(radio):
+    PI = 3.14
+    constant = 4/3
+
+    return constant * PI * radio**3
+
+
+
+#g
+def calculate_hypotenuse(ca, cb):
+    hypotenuse = pow(ca**2 + cb **2, 0.5)
+    return hypotenuse
 
 
